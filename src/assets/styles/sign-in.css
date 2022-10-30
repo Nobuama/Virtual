@@ -1,0 +1,51 @@
+.sign-in__block{
+   max-width: 854px;
+   margin: auto;
+   border: 1px solid black;
+   background-color: #09010E;
+   border-radius: 5px;
+   flex: 0 0 100%;
+}
+.sign-in{
+   display: flex;
+   flex-direction: column;
+   margin: 48px 147px;
+}
+.sign-in__header{
+   background: url(../images/Vector\ 5.svg) 100% no-repeat;
+   font-family: 'Orbitron', sans-serif;
+   font-size: 24px;
+   font-weight: 600;
+   margin: 39px 7px 36px 5px;
+   padding: 30px 41px;
+}
+.sign-in__legend{
+   margin-bottom: 24px;
+   text-align: center;
+   font-family: 'Orbitron', sans-serif;
+   font-weight: 600;
+   font-size: 24px;
+}
+.sign-in__email{
+   margin-bottom: 16px;
+}
+.sign-in__password{
+   margin-bottom: 40px;
+}
+.sign-in__btn{
+   background: linear-gradient(99.99deg, #B936F5 -21.45%, #C64C85 100%, #F1005B 100%);
+   align-self: center;
+   padding: 10px 37px;
+   border-radius: 5px;
+   font-size: 11px;
+}
+.sign-in input{
+   background-color: #000;
+   border: 2px solid #C8D1E5;
+   border-radius: 5px;
+   padding: 18px 32px;
+   font-size: 18px;
+}
+.sign-in input::placeholder{
+   font-size: 18px;
+}

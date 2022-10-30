@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Figma</title>
+   <link rel="stylesheet" href="src/assets/styles/null.css">
+   <link rel="stylesheet" href="src/assets/styles/styles.css">
+   <link rel="stylesheet" href="src/assets/styles/mobile.css" media="(max-device-width:450px)">
+   <link rel="stylesheet" href="src/assets/styles/sign-in.css">
+</head>
+
+<body>
+   <!--Для бекграунда-->
+   <div class="wrapper">
+      <header class="header">
+         <div class="menu">
+            <a class="menu__name" href="index.html">Light</a>
+            <nav class="menu__nav">
+               <ul class="menu__items">
+                  <li class="menu__burger-icon">
+                     <span></span>
+                  </li>
+                  <li class="menu__item">
+                     <a href="#" class="menu__link menu__item--active">Home</a>
+                  </li>
+                  <li class="menu__item">
+                     <a href="games.html" class="menu__link">Games</a>
+                  </li>
+                  <li class="menu__item">
+                     <a href="#" class="menu__link">Features</a>
+                  </li>
+                  <li class="menu__item">
+                     <button id="button" class="button">Sign in</button>
+                  </li>
+                  <li hidden class="menu__item">
+                     <button class="logged__btn">
+                        <img class="menu__person" src="src/assets/images/person.png" alt="person.img">
+                     </button>
+               </ul>
+            </nav>
+         </div>
+         <ul class="menu__burger">
+            <li>Home</li>
+            <li><a href="games.html">Games</a></li>
+            <li>Features</li>
+            <li><button class="sign-in__btn-mob button">
+               <span>Sign in</span>
+               <span hidden>Sign out</span>
+            </button></li>
+         </ul>
+
+         <ul class="person__menu">
+            <li>
+               <h4>User menu</h4>
+               <img src="src/assets/images/menu-arrow.svg" alt="">
+            </li>
+            <li>Recently added</li>
+            <li>Add new card</li>
+            <li>Log out</li>
+         </ul>
+      </header>
+
+   
+      <main class="main">
+         <!--Верх сторінки-->
+         <section class="hero">
+            <div class="hero__top">
+               <div class="hero__info">
+                  <h1 class="hero__title title">Let’s Explore<br>Three-Dimensional visual</h1>
+                  <p class="hero__text text">With virtual technology you can see the digital world feel more real and you can play the game with a new style.</p>
+                  <div class="hero__buttons">
+                     <button class="hero__btn button">Invite Friend</button>
+                     <button class="hero__btn--disable button">Explore device</button>
+                  </div>
+                  <div class="hero__cards">
+                     <ul class="hero__people">
+                        <li class="hero__card"><img src="src/assets/images/person2.png" alt="person" class="hero__person"></li>
+                        <li class="hero__card"><img src="src/assets/images/person3.png" alt="person" class="hero__person"></li>
+                        <li class="hero__card"><img src="src/assets/images/person.png" alt="person" class="hero__person"></li>
+                        <li class="hero__card"><img src="src/assets/images/person4.png" alt="person" class="hero__person"></li>
+                     </ul>
+                     <span class="hero__online">400k people online</span>
+                  </div>
+               </div>
+            <div class="hero__img-block">
+               <img src="src/assets/images/hero-img.png" class="hero__img">
+               <div class="hero__img-wrapper">
+                  <h2 class="hero__img-title title">Cinematic Virtual Reality</h2>
+                  <img class="hero__img-line" src="src/assets/images/hero-img-line.png" alt="button-line"></img>
+                  <p class="hero__img-text text">Let’s be the best for more real and effective results and ready <br>
+                     to explore the limitless world that we have prepared for you.</p>
+               </div>
+            </div>
+         </div>
+            <div class="hero__bot">
+               <div class="hero__bot-card">
+                  <img class="hero__bot-image" src="src/assets/images/header-bot-img1.png"></img>
+                  <img class="hero__bot-image" src="src/assets/images/header-bot-img2.png"></img>
+               </div>
+               <div class="hero__bot-descr">
+                  <h2 class="hero__bot-title title">New Experience In Playing Game</h2>
+                     <p class="hero__bot-text text">You can try playing the game with a new style and of course a more real feel, like you are the main character in your game and adventure in this new digital world.</p>
+                     <button class="hero__bot-btn button">Get it Now</button>
+               </div>
+            </div>
+         </section>
+
+         <!--Там де карточки-->
+         <section class="main__content">
+            <div class="content__header">
+               <h2 class="content__header-title title">Awesome experiences with virtual reality world</h2>
+               <!--У процесі img буде змінено на video-->
+               <img src="src/assets/images/video-img.png" class="content__video"></img>
+            </div>
+         </section>
+         <section class="feedback">
+            <h2 class="feedback__title title">What our clients say</h2>
+            <p class="feedback__text text">See what our customer say about us. It really matter for us. How good or bad we will make ir for evaluation to make EhyalLive better.</p>
+            <ul class="feedback__people">
+            </ul>
+         </section>
+   
+         <section class="values">
+            <div class="values__textBlock">
+               <h2 class="values__title title">Our company values culture</h2>
+               <p class="values__text text">We specialize in creating visual identities for products and branda in your company.</p>
+            </div>
+               <div class="values__items">
+                  <div class="values__item">
+                     <img class="values__icon" src="src/assets/images/hand.svg">
+                     <p class="values__item-text text">Be Sincere</p>
+                  </div>
+                  <div class="values__item">
+                     <img class="values__icon" src="src/assets/images/lightbulb.svg">
+                     <p class="values__item-text text">Take intelligent risks</p>
+                  </div>
+                  <div class="values__item">
+                     <img class="values__icon" src="src/assets/images/handshake.svg">
+                     <p class="values__item-text text">Stronger together</p>
+                  </div>
+                  <div class="values__item">
+                     <img class="values__icon" src="src/assets/images/checked.svg">
+                     <p class="values__item-text text">Keep it simple</p>
+                  </div>
+               </div>
+         </section>
+      </main>
+
+      <footer class="footer">
+            <div class="footer__contact">
+               <h2 class="footer__contact-title title">Explore product in new way</h2>
+               <p class="footer__contact-text text"> We specialize in creating visual identities for products and branda in your company.</p>
+               <form class="footer__form">
+                  <input type="email" class="footer__email" placeholder="Your Email">
+                  <button class="footer__end-btn button">Start</button>
+               </form>
+            </div>
+      </footer>
+   </div>
+
+   <script src="src/assets/scripts/mock.js"></script>
+   <script src="src/assets/scripts/userAuth.js"></script>
+   <script src="src/assets/scripts/index.js"></script>
+</body>
+</html>

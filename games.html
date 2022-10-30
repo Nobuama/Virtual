@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="src/assets/styles/null.css">
+   <link rel="stylesheet" href="src/assets/styles/games.css">
+   <link rel="stylesheet" href="src/assets/styles/sign-in.css">
+   <link rel="stylesheet" href="src/assets/styles/add-new-card.css">
+   <link rel="stylesheet" href="src/assets/styles/modalCard.css">
+   <link rel="stylesheet" href="src/assets/styles/mobile.css" media="(max-device-width:450px)">
+   <title>Games</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <div class="menu">
+            <a class="menu__name" href="index.html">Light</a>
+            <nav class="menu__nav">
+               <ul class="menu__items">
+                  <li class="menu__burger-icon">
+                     <span></span>
+                  </li>
+                  <li class="menu__item">
+                     <a href="index.html" class="menu__link">Home</a>
+                  </li>
+                  <li class="menu__item">
+                     <a href="#" class="menu__link menu__item--active">Games</a>
+                  </li>
+                  <li class="menu__item">
+                     <a href="#" class="menu__link">Features</a>
+                  </li>
+                  <li class="menu__item">
+                     <button id="button" class="button">Sign in</button>
+                  </li>
+               </ul>
+            </nav>
+         </div>
+         
+      </header>
+      <ul class="menu__burger">
+         <li><a href="index.html">Home</a></li>
+         <li><a href="games.html">Games</a></li>
+         <li>Features</li>
+         <li><button class="sign-in__btn-mob button">
+            <span>Sign in</span>
+            <span hidden>Sign out</span>
+         </button></li>
+      </ul>
+      
+      <ul class="person__menu">
+         <li>
+            <h4>User menu</h4>
+            <img src="src/assets/images/menu-arrow.svg" alt="">
+         </li>
+         <li>Recently added</li>
+         <li class="person__menu-addCard">Add new card</li>
+         <li>Log out</li>
+      </ul>
+      
+      <section class="main">
+         <div class="content__menu">
+            <h2 class="content__title title">VR Games</h2>
+            <div class="content__btn-block">
+               <button class="content__new-card button">Add new card</button>
+            </div>
+         </div>
+         <ul class="content__items">
+         </ul>
+
+         <ul class="content__nav">
+         </ul>
+      </section>
+
+      <script src="src/assets/scripts/mock.js"></script>
+      <script src="src/assets/scripts/userAuth.js"></script>
+      <script src="src/assets/scripts/index.js"></script>
+      <script src="src/assets/scripts/games.js"></script>
+      <!-- <script src="src/assets/scripts/openCard.js"></script> -->
+</body>
+</html>
